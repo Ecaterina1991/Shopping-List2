@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ecaterina Stefan" />
+    <title>Lista de cumparaturi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/Vector.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="list">
+        <h2>Listă de cumpărături <img src="images/lista-icon.png" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Adauga produsul" />
+          <button id="adaugare" onclick="AddProduct()">Adaugare</button>
+        </div>
+        <ul id="list-container"></ul>
+        <div>
+          <h3 id="sumPrices">Aici se va afișa rezultatul calculelor</h3>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button id="message">Numără produsele</button>
+        <button id="averagePrice" onclick="calculateAverage()">
+          Calculează media prețurilor
+        </button>
+        <button id="sumPrice" onclick="calculateSum()">
+          Calculează suma prețurilor
+        </button>
+        <button id="sort">Sortează produsele</button>
+      </div>
+
+      <footer>
+        <p class="footer">
+          &copy;Ecaterina Ștefan &nbsp; <span class="year"></span>
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

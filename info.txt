@@ -1,0 +1,25 @@
+Model de aplicatie pentru proiect – varianta 1
+Creați o aplicație simplă de gestionare a listei de cumpărături care să permită utilizatorilor să adauge și să șteargă elemente din listă. Aplicația trebuie să ofere interacțiune cu utilizatorul și să utilizeze conceptele de JavaScript învățate în curs.
+Funcționalități cheie:
+1.	Listă de Cumpărături:
+•	Utilizatorul ar trebui să poată vedea o listă inițială de cumpărături.
+2.	Adăugare și Ștergere:
+•	Utilizatorul ar trebui să poată adăuga un nou element în listă introducând numele produsului și apăsând un buton "Adăugare".
+•	Fiecare element din listă ar trebui să aibă un buton de ștergere.
+3.	Calcul Număr Elemente:
+•	Afisati numărul total de elemente din listă.
+4.	Funcții și Operații Matematice:
+•	Implementați funcții matematice simple pentru a calcula suma sau media prețurilor produselor (fictive).
+5.	Interacțiune cu DOM:
+•	Utilizați metodele DOM pentru a manipula și actualiza conținutul paginii.
+6.	Estetică:
+•	Adăugați un minim de stilizare folosind CSS pentru a face aplicația plăcută vizual.
+Cerințe Tehnice:
+•	Utilizarea funcțiilor pentru manipularea datelor și actualizarea interfeței.
+•	Folosirea corectă a tipurilor de date, operatorilor, structurilor condiționale și repetitive.
+•	Implementarea funcțiilor callback, funcții arrow și manipularea array-urilor.
+•	Utilizarea metodelor DOM pentru a accesa și modifica elemente HTML.
+Extra Mile (Opțional):
+•	Implementarea funcționalității de sortare a listei.
+•	Validarea datelor introduse de utilizator înainte de adăugarea în listă.
+•	Integrarea unor efecte vizuale pentru adăugare și ștergere de elemente.

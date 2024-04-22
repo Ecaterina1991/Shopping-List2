@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("images/shopping3.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.list {
+  width: 100%;
+  max-width: 570px;
+  background: linear-gradient(yellow, green);
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px #083122;
+}
+
+.list h2 {
+  color: #083122;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.list h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e4e7ed;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.row:hover {
+  background-color: #ced6d3;
+  color: #fff;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: orangered;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+#adaugare:hover {
+  background-color: #5a1a13;
+}
+
+.buttons {
+  margin-top: 70px;
+  margin-right: 220px;
+}
+
+#sort,
+#message,
+#averagePrice,
+#sumPrice {
+  color: #fff;
+  cursor: pointer;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #083122;
+}
+
+#sort:hover,
+#message:hover,
+#averagePrice:hover,
+#sumPrice:hover {
+  color: #fff;
+  background-color: orangered;
+}
+
+ul li {
+  list-style: none;
+  font-size: 18px;
+  padding: 14px 10px 14px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-image: url(images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 16px;
+  left: 8px;
+}
+
+ul li.checked {
+  color: #615e5e;
+  text-decoration: line-through;
+}
+
+ul li:hover {
+  border-radius: 20px;
+  transform: scale(1.05);
+  box-shadow: 0 0 30px 10px #4d6819;
+  background-color: #ffff99;
+}
+
+ul li.checked::before {
+  background-image: url(images/bifa.png);
+}
+
+ul li span {
+  position: absolute;
+  right: 5px;
+  top: 13px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul li span:hover {
+  background: #edeef0;
+}
+
+.price {
+  font-size: 15px;
+  margin-left: 10px;
+  width: 15%;
+  border-radius: 30px;
+  background-color: #efeaea;
+  cursor: pointer;
+}
+
+.ron {
+  display: inline;
+}
+
+.footer {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 200px;
+  margin-left: 400px;
+  background-color: #e8e0e0;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#sumPrices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff99;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgb(233, 233, 5);
+  cursor: pointer;
+}
